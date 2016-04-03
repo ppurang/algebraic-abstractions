@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Abstraction</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!--        //@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+        //@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+        //@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+-->
+      <style type="text/css">
+
+          @font-face {
+            font-family: 'Yanone Kaffeesatz';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(YanoneKaffeesatz-Regular.ttf) format('truetype');
+          }
+
+          @font-face {
+            font-family: 'Droid Serif';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Droid Serif'), local('DroidSerif'), url(DroidSerif.ttf) format('truetype');
+          }
+          @font-face {
+            font-family: 'Droid Serif';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Droid Serif Bold'), local('DroidSerif-Bold'), url(DroidSerif-Bold.ttf) format('truetype');
+          }
+          @font-face {
+            font-family: 'Droid Serif';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Droid Serif Italic'), local('DroidSerif-Italic'), url(DroidSerif-Italic.ttf) format('truetype');
+          }
+
+          @font-face {
+            font-family: 'Ubuntu Mono';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(UbuntuMono-Regular.ttf) format('truetype');
+          }
+          @font-face {
+            font-family: 'Ubuntu Mono';
+            font-style: normal;
+            font-weight: 700;
+            src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url(UbuntuMono-Bold.ttf) format('truetype');
+          }
+          @font-face {
+            font-family: 'Ubuntu Mono';
+            font-style: italic;
+            font-weight: 400;
+            src: local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'), url(UbuntuMono-Italic.ttf) format('truetype');
+          }
+      </style>
+
+
+      <style type="text/css">
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      body {
+          font-family: 'Droid Serif';
+          }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+
+      h2 {
+       color: #444
+      }
+      h3 {
+       color: #666;
+      }
+      .step {
+       color: rgba(46, 38, 173, 1);
+       text-decoration: underline;
+      }
+      .right-align {align: right}
+      .lineheightBig { line-height: 2em;}
+      .whiteBack {background-color: rgba(255, 255, 255, 0.2);}
+      .red { color: red;}
+      .gray { color: gray;}
+      .white { color: white;}
+      .navy { color: navy;}
+      .green{ color: green;}
+      .darkblue{ color: darkblue;}
+
+      .code { background-color : #f2f2f2; font-family: 'Ubuntu Mono'; font-size: 0.9em; padding-left: 5px; padding-right:5px;}
+
+      .underline { text-decoration: underline; }
+      .strike { text-decoration: line-through; }
+
+       p span.strike {padding-left: 1em;}
+
+      .big {font-size: 8em;         font-family: 'Yanone Kaffeesatz';}
+
+      .big-code { background-color : #f2f2f2; font-family: 'Ubuntu Mono'; font-size: 1.3em; padding-left: 5px; padding-right:5px;}
+
+      .small img {height: 100px; width: 150px; vertical-align: middle}
+
+      .attr { font-size: 0.5em}
+
+      </style>
+  </head>
+  <body>
+    <script src="remark-latest.min.js" type="text/javascript">
+    </script>
+    <script type="text/javascript">
+      var slideshow = remark.create({
+        sourceUrl: 'outline.md',
+
+        // Set the slideshow display ratio
+        // Default: '4:3'
+        // Alternatives: '16:9', ...
+        ratio: '16:9',
+
+        // Navigation options
+        navigation: {
+          // Enable or disable navigating using scroll
+          // Default: true
+          // Alternatives: false
+          scroll: false,
+
+          // Enable or disable navigation using touch
+          // Default: true
+          // Alternatives: false
+          touch: true,
+
+          // Enable or disable navigation using click
+          // Default: false
+          // Alternatives: true
+          click: false
+        }
+      });
+    </script>
+  </body>
+</html>
+
+
+<!--
+
+ "We all know that the only mental tool by means of which a very finite piece of reasoning can cover a myriad cases is called “abstraction”; as a result the effective exploitation of his powers of abstraction must be regarded as one of the most vital activities of a competent programmer. In this connection it might be worth-while to point out that the purpose of abstracting is not to be vague, but to create a new semantic level in which one can be absolutely precise." (Edsger W. Dijkstra, in The Humble Programmer, ACM Turing Lecture 1972)
+
+  http://www.goodreads.com/quotes/tag/abstraction
+  Remember that every science is based upon an abstraction. An abstraction is taking a point of view or looking at things under a certain aspect or from a particular angle. All sciences are differentiated by their abstraction.
+  Fulton J. Sheen, Life Is Worth Living
+
+
+  http://cosent.nl/en/blog/monkey-patching-good-bad-ugly
+
+-->
