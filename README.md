@@ -110,7 +110,10 @@ or you can checkout `TestRun` in `src/test` directory and run
 
 ## Hosted versions
 
-To be done.
+[Talk Slides](http://piyush.purang.net/abstr/abstractions.html#1) 
+
+[Scastie](https://scastie.scala-lang.org/zX0s4LbwSwC69qvrhQYTbQ)
+
 
 ## Improvements
 
