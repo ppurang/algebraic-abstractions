@@ -1,5 +1,12 @@
 # Algebraic Abstractions
 
+## Hosted versions
+
+[Talk Slides](http://piyush.purang.net/abstr/abstractions.html#1) 
+
+[Scastie](https://scastie.scala-lang.org/zX0s4LbwSwC69qvrhQYTbQ)
+
+
 ## Run locally
 
 To run the presentation just load the file `presentation/algebraic-abstractions.html` in a browser.
@@ -107,13 +114,6 @@ or you can checkout `TestRun` in `src/test` directory and run
   [info] > ARG_2: 1
   [success] Total time: 3 s, completed Apr 3, 2016 3:54:37 PM
 ```
-
-## Hosted versions
-
-[Talk Slides](http://piyush.purang.net/abstr/abstractions.html#1) 
-
-[Scastie](https://scastie.scala-lang.org/zX0s4LbwSwC69qvrhQYTbQ)
-
 
 ## Improvements
 
